@@ -1,0 +1,41 @@
+<div class="container mt-4">
+  @if (event() !== null) {
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <h2>{{ event()?.title }}</h2>
+        <p><strong>Tarih:</strong> {{ event()?.date }}</p>
+        <p><strong>Saat:</strong> {{ event()?.time }}</p>
+        <p><strong>Yer:</strong> {{ event()?.location }}</p>
+        <p><strong>Kategori:</strong> {{ event()?.category }}</p>
+        <p><strong>Açıklama:</strong> {{ event()?.description }}</p>
+        <p><strong>Katılımcı Sayısı:</strong> {{ event()?.participantCount }}</p>
+        <p><strong>Organizatör:</strong> {{ event()?.ownerName }}</p>
+        <p><strong>Durum:</strong> {{ event()?.status }}</p>
+
+        <button class="btn btn-primary me-2" (click)="join()">Katıl</button>
+        <button class="btn btn-outline-secondary" (click)="loadParticipants()">Katılımcıları Gör</button>
+        <a routerLink="/event-list" class="btn btn-outline-dark ms-2">Geri Dön</a>
+      </div>
+    </div>
+
+    @if (participants().length > 0) {
+      <div class="card mt-4 shadow-sm">
+        <div class="card-body">
+          <h5>Katılımcılar</h5>
+          <ul class="list-group">
+            @for (p of participants(); track p.userId) {
+              <li class="list-group-item">{{ p.username }} - {{ p.email }}</li>
+            }
+          </ul>
+        </div>
+      </div>
+    }
+  }
+  @else {
+    <div class="text-center">
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+  }
+</div>

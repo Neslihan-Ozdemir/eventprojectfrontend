@@ -1,0 +1,57 @@
+<div class="container mt-4">
+  <div class="card shadow-sm p-4" style="max-width: 600px; margin: auto;">
+    <h3 class="mb-4">Etkinlik Oluştur</h3>
+    <form [formGroup]="createForm" (ngSubmit)="onSubmit()">
+
+      <div class="mb-3">
+        <label class="form-label">Etkinlik Adı</label>
+        <input type="text" class="form-control" formControlName="title" placeholder="Etkinlik adı">
+        @if (createForm.get('title')?.invalid && createForm.get('title')?.touched) {
+          <div class="invalid-feedback d-block">En az 2 karakter olmalıdır</div>
+        }
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Tarih</label>
+        <input type="date" class="form-control" formControlName="date">
+        @if (createForm.get('date')?.invalid && createForm.get('date')?.touched) {
+          <div class="invalid-feedback d-block">Tarih zorunludur</div>
+        }
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Saat</label>
+        <input type="time" class="form-control" formControlName="time">
+        @if (createForm.get('time')?.invalid && createForm.get('time')?.touched) {
+          <div class="invalid-feedback d-block">Saat zorunludur</div>
+        }
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Yer</label>
+        <input type="text" class="form-control" formControlName="location" placeholder="Etkinlik yeri">
+        @if (createForm.get('location')?.invalid && createForm.get('location')?.touched) {
+          <div class="invalid-feedback d-block">En az 2 karakter olmalıdır</div>
+        }
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Açıklama</label>
+        <textarea class="form-control" formControlName="description" rows="3" placeholder="Etkinlik açıklaması"></textarea>
+        @if (createForm.get('description')?.invalid && createForm.get('description')?.touched) {
+          <div class="invalid-feedback d-block">En az 2 karakter olmalıdır</div>
+        }
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Kategori</label>
+        <input type="text" class="form-control" formControlName="category" placeholder="Kategori">
+        @if (createForm.get('category')?.invalid && createForm.get('category')?.touched) {
+          <div class="invalid-feedback d-block">En az 2 karakter olmalıdır</div>
+        }
+      </div>
+
+      <button type="submit" class="btn btn-primary w-100" [disabled]="createForm.invalid">Oluştur</button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,60 @@
+<div class="container mt-4">
+  <div class="card shadow-sm p-4" style="max-width: 600px; margin: auto;">
+    <h3 class="mb-4">Etkinliği Düzenle</h3>
+    <form [formGroup]="editForm" (ngSubmit)="onSubmit()">
+
+      <div class="mb-3">
+        <label class="form-label">Etkinlik Adı</label>
+        <input type="text" class="form-control" formControlName="title" placeholder="Etkinlik adı">
+        @if (editForm.get('title')?.invalid && editForm.get('title')?.touched) {
+          <div class="invalid-feedback d-block">En az 2 karakter olmalıdır</div>
+        }
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Tarih</label>
+        <input type="date" class="form-control" formControlName="date">
+        @if (editForm.get('date')?.invalid && editForm.get('date')?.touched) {
+          <div class="invalid-feedback d-block">Tarih zorunludur</div>
+        }
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Saat</label>
+        <input type="time" class="form-control" formControlName="time">
+        @if (editForm.get('time')?.invalid && editForm.get('time')?.touched) {
+          <div class="invalid-feedback d-block">Saat zorunludur</div>
+        }
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Yer</label>
+        <input type="text" class="form-control" formControlName="location" placeholder="Etkinlik yeri">
+        @if (editForm.get('location')?.invalid && editForm.get('location')?.touched) {
+          <div class="invalid-feedback d-block">En az 2 karakter olmalıdır</div>
+        }
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Açıklama</label>
+        <textarea class="form-control" formControlName="description" rows="3" placeholder="Etkinlik açıklaması"></textarea>
+        @if (editForm.get('description')?.invalid && editForm.get('description')?.touched) {
+          <div class="invalid-feedback d-block">En az 2 karakter olmalıdır</div>
+        }
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Kategori</label>
+        <input type="text" class="form-control" formControlName="category" placeholder="Kategori">
+        @if (editForm.get('category')?.invalid && editForm.get('category')?.touched) {
+          <div class="invalid-feedback d-block">En az 2 karakter olmalıdır</div>
+        }
+      </div>
+
+      <div class="d-flex gap-2">
+        <button type="submit" class="btn btn-primary w-100" [disabled]="editForm.invalid">Güncelle</button>
+        <a routerLink="/my-events" class="btn btn-outline-secondary w-100">İptal</a>
+      </div>
+    </form>
+  </div>
+</div>
