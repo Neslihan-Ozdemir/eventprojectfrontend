@@ -25,7 +25,7 @@
           <div class="card shadow-sm">
             <div class="card-body">
               <h5 class="card-title">{{ event.title }}</h5>
-              <p class="card-text"><i class="bi bi-calendar"></i> {{ event.date }}</p>
+              <p class="card-text"><i class="bi bi-calendar"></i> {{ event.date | date:'dd.MM.yyyy' }}</p>
               <p class="card-text"><i class="bi bi-geo-alt"></i> {{ event.location }}</p>
               <p class="card-text"><span class="badge bg-secondary">{{ event.status }}</span></p>
               <div class="d-flex flex-wrap gap-1 mt-2">
