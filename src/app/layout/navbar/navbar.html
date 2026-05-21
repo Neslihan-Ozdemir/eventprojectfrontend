@@ -7,26 +7,26 @@
     <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" routerLink="/event-list" routerLinkActive="active">Events</a>
+          <a class="nav-link" routerLink="/event-list" routerLinkActive="active">Etkinlikler</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/event-create" routerLinkActive="active">Create Event</a>
+          <a class="nav-link" routerLink="/event-create" routerLinkActive="active">Etkinlik Oluştur</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/my-events" routerLinkActive="active">My Events</a>
+          <a class="nav-link" routerLink="/my-events" routerLinkActive="active">Etkinliklerim</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
             {{ username }}
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" role="button" (click)="logout()">Log out</a></li>
+            <li><a class="dropdown-item" role="button" (click)="logout()">Çıkış Yap</a></li>
           </ul>
         </li>
       </ul>
       <form class="d-flex" role="search" (ngSubmit)="search()">
-        <input [(ngModel)]="searchQuery" name="q" class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn custom-search-btn" type="submit">Search</button>
+        <input [(ngModel)]="searchQuery" name="q" class="form-control me-2" type="search" placeholder="Arama" aria-label="Arama"/>
+        <button class="btn custom-search-btn" type="submit">Arama</button>
       </form>
     </div>
   </div>
