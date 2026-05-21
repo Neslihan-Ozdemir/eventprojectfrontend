@@ -61,31 +61,36 @@ src/app/
 ***Etkinlik Listeleme Sayfası***
 
 
-<img width="1920" height="788" alt="image" src="https://github.com/user-attachments/assets/4511d95b-997d-472c-a50d-6a18f6618106" />
+<img width="1920" height="625" alt="image" src="https://github.com/user-attachments/assets/29abeac8-2012-444e-a19f-7f72881be9b2" />
+
 
 
 ***Örnek Etkinlik Detayı***
 
 
-<img width="1920" height="812" alt="image" src="https://github.com/user-attachments/assets/db63dc7a-d35d-42e7-9dfa-9e803f7953f5" />
+<img width="1920" height="808" alt="image" src="https://github.com/user-attachments/assets/89d42a14-c30e-4e5f-b80c-1381e1305880" />
+
 
 
 ***Etkinlik Oluşturma Sayfası***
 
 
-<img width="1920" height="810" alt="image" src="https://github.com/user-attachments/assets/89a68b4f-d66c-47fd-ba3c-29ac112a3e15" />
+<img width="1920" height="812" alt="image" src="https://github.com/user-attachments/assets/1ed86813-2021-446f-a994-5604424373a7" />
+
 
 
 ***Etkinliklerim Sayfası***
 
 
-<img width="1920" height="808" alt="image" src="https://github.com/user-attachments/assets/e2ef2330-6729-4167-9613-dcf9022b49e2" />
+<img width="1919" height="806" alt="image" src="https://github.com/user-attachments/assets/26816e3c-4205-448c-982a-d43fa8babb33" />
+
 
 
 ***Katılınan Etkinlikler Sayfası***
 
 
-<img width="1920" height="809" alt="image" src="https://github.com/user-attachments/assets/1a6ea56c-8932-443a-9632-6d95dde9be6b" />
+<img width="1920" height="807" alt="image" src="https://github.com/user-attachments/assets/08889e6b-fc45-40d6-8ea4-0f0bb978a197" />
+
 
 
 ## Kurulum Adımları
