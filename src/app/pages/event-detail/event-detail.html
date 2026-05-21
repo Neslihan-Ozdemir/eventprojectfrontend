@@ -4,7 +4,7 @@
       <div class="card-body">
         <h2>{{ event()?.title }}</h2>
         <p><strong>Tarih:</strong> {{ event()?.date | date:'dd.MM.yyyy' }}</p>
-        <p><strong>Saat:</strong> {{ event()?.time }}</p>
+        <p><strong>Saat:</strong> {{ event()?.time | slice:0:5 }}</p>
         <p><strong>Yer:</strong> {{ event()?.location }}</p>
         <p><strong>Kategori:</strong> {{ event()?.category }}</p>
         <p><strong>Açıklama:</strong> {{ event()?.description }}</p>
