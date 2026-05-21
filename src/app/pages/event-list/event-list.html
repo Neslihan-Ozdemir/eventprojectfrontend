@@ -16,7 +16,7 @@
           <div class="card-body">
             <h5 class="card-title">{{ event.title }}</h5>
             <p class="card-text"><i class="bi bi-calendar"></i> {{ event.date | date:'dd.MM.yyyy' }}</p>
-            <p class="card-text"><i class="bi bi-clock"></i> {{ event.time }}</p>
+            <p class="card-text"><i class="bi bi-clock"></i> {{ event.time | slice:0:5 }}</p>
             <p class="card-text"><i class="bi bi-geo-alt"></i> {{ event.location }}</p>
             <p class="card-text"><small class="text-muted">{{ event.category }}</small></p>
             <a [routerLink]="['/event-detail', event.id]" class="btn btn-primary">Detay</a>
