@@ -63,7 +63,8 @@ src/app/
 ***Etkinlik Listeleme Sayfası***
 
 
-<img width="1920" height="625" alt="image" src="https://github.com/user-attachments/assets/29abeac8-2012-444e-a19f-7f72881be9b2" />
+<img width="1907" height="676" alt="image" src="https://github.com/user-attachments/assets/102e8059-66b9-4959-b3dc-58049e103279" />
+
 
 
 
@@ -71,20 +72,24 @@ src/app/
 ***Örnek Etkinlik Detayı***
 
 
-<img width="1920" height="808" alt="image" src="https://github.com/user-attachments/assets/89d42a14-c30e-4e5f-b80c-1381e1305880" />
+<img width="1920" height="795" alt="image" src="https://github.com/user-attachments/assets/b56b4e7a-fe67-4784-bc8b-eaa25911449d" />
+
 
 
 
 ***Etkinlik Oluşturma Sayfası***
 
 
-<img width="1920" height="812" alt="image" src="https://github.com/user-attachments/assets/1ed86813-2021-446f-a994-5604424373a7" />
+<img width="1920" height="803" alt="image" src="https://github.com/user-attachments/assets/a5bfcf36-3181-486d-9c14-84844f2cf19d" />
+
+
 
 
 ***Etkinlik Düzenleme Sayfası***
 
 
-<img width="1919" height="810" alt="image" src="https://github.com/user-attachments/assets/c23df70c-2df6-43e8-86cd-602ead4bd231" />
+<img width="1920" height="804" alt="image" src="https://github.com/user-attachments/assets/240d4631-f44b-432d-92c0-4b67ed5f2f81" />
+
 
 
 
@@ -92,14 +97,16 @@ src/app/
 ***Etkinliklerim Sayfası***
 
 
-<img width="1919" height="806" alt="image" src="https://github.com/user-attachments/assets/26816e3c-4205-448c-982a-d43fa8babb33" />
+<img width="1920" height="817" alt="image" src="https://github.com/user-attachments/assets/af39f7c5-bd2d-42ab-a302-025ced83cb07" />
+
 
 
 
 ***Katılınan Etkinlikler Sayfası***
 
 
-<img width="1920" height="807" alt="image" src="https://github.com/user-attachments/assets/08889e6b-fc45-40d6-8ea4-0f0bb978a197" />
+<img width="1920" height="806" alt="image" src="https://github.com/user-attachments/assets/24068579-2cee-4035-b50c-38831022c010" />
+
 
 
 
@@ -107,7 +114,8 @@ src/app/
 ***Etkinlik Arama Sayfası***
 
 
-<img width="1918" height="785" alt="image" src="https://github.com/user-attachments/assets/0293da06-2a5d-48b2-9d5a-c13ba3aa346e" />
+<img width="1920" height="808" alt="image" src="https://github.com/user-attachments/assets/fe50efcb-bbbb-4a33-8c00-8c38f2add00e" />
+
 
 
 
