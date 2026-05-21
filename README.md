@@ -78,6 +78,13 @@ src/app/
 <img width="1920" height="812" alt="image" src="https://github.com/user-attachments/assets/1ed86813-2021-446f-a994-5604424373a7" />
 
 
+***Etkinlik Düzenleme Sayfası***
+
+
+<img width="1919" height="810" alt="image" src="https://github.com/user-attachments/assets/c23df70c-2df6-43e8-86cd-602ead4bd231" />
+
+
+
 
 ***Etkinliklerim Sayfası***
 
@@ -90,6 +97,15 @@ src/app/
 
 
 <img width="1920" height="807" alt="image" src="https://github.com/user-attachments/assets/08889e6b-fc45-40d6-8ea4-0f0bb978a197" />
+
+
+
+
+***Etkinlik Arama Sayfası***
+
+
+<img width="1918" height="785" alt="image" src="https://github.com/user-attachments/assets/0293da06-2a5d-48b2-9d5a-c13ba3aa346e" />
+
 
 
 
