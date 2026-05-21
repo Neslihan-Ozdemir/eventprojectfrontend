@@ -52,16 +52,19 @@ src/app/
 <img width="546" height="464" alt="image" src="https://github.com/user-attachments/assets/e038d149-44dc-4399-95ec-efd7d34c693a" />
 
 
+
 ***Kayıt Ol Sayfası***
 
 
 <img width="575" height="570" alt="image" src="https://github.com/user-attachments/assets/cefd7a09-3b86-49c8-b80d-9850b8d46f4a" />
 
 
+
 ***Etkinlik Listeleme Sayfası***
 
 
 <img width="1920" height="625" alt="image" src="https://github.com/user-attachments/assets/29abeac8-2012-444e-a19f-7f72881be9b2" />
+
 
 
 
